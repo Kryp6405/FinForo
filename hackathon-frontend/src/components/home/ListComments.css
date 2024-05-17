@@ -1,0 +1,33 @@
+.comment-container {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+/* Header */
+
+.comment-header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.comment-header h2 {
+    font-family: 'QuicksandRegular';
+    font-size: 30px;
+    text-align: left;
+}
+
+.comment-header img {
+    width: 50px;
+    height: auto;
+}
+
+/* Body */
+
+.comment-description-text {
+    font-family: 'QuicksandRegular';
+    margin-top: 20px;
+    font-size: 20px;
+    background-color: #EFEFEF;
+}

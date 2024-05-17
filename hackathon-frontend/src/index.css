@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+#root {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+/* FONTS */
+
+@font-face {
+  font-family: "QuicksandRegular";
+  src: local("QuicksandRegular"),
+    url("./utils/fonts/Quicksand/Quicksand-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "QuicksandMedium";
+  src: local("QuicksandMedium"),
+    url("./utils/fonts/Quicksand/Quicksand-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "QuicksandSemiBold";
+  src: local("QuicksandSemiBold"),
+    url("./utils/fonts/Quicksand/Quicksand-SemiBold.ttf") format("truetype");
+}
+
+
+@font-face {
+  font-family: "QuicksandBold";
+  src: local("QuicksandBold"),
+    url("./utils/fonts/Quicksand/Quicksand-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "QuicksandLight";
+  src: local("QuicksandLight"),
+    url("./utils/fonts/Quicksand/Quicksand-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "SanchezRegular";
+  src: local("SanchezRegular"),
+    url("./utils/fonts/Sanchez/Sanchez-Regular.ttf") format("truetype");
+}

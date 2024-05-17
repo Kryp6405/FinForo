@@ -1,0 +1,16 @@
+.not-found {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.not-found h1{
+  font-family: 'SanchezRegular';
+  font-size: 100px;
+}
+
+.not-found p{
+  font-family: 'SanchezRegular';
+  font-size: 50px;
+}

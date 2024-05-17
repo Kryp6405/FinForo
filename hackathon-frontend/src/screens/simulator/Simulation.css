@@ -1,0 +1,33 @@
+.simulation-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(#004878, #31607F);
+}
+
+.simulation-container h1 {
+    font-family: 'SanchezRegular';
+    font-size: 90px;
+    padding: 10px;
+    color: white;
+}
+
+.container-chart {
+    width: 90%;
+    height: 500px;
+    border-radius: 20px;
+}
+
+.buttons-chart {
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}

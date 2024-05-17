@@ -1,0 +1,47 @@
+.survey-container {
+    width: 100vw;
+    height: 100vh;
+    background-color:#004878;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.survey-left {
+    width: 45%;
+}
+
+.survey-left h1{
+    font-family: 'SanchezRegular';
+    font-size: 130px;
+    padding: 10px;
+    color: white;
+}
+
+.survey-left p{
+    font-family: 'SanchezRegular';
+    font-size: 40px;
+    padding: 10px;
+    color: white;
+}
+
+.survey-right {
+    width: 45%;
+    height: 80%;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.survey-right h2{
+    font-family: 'SanchezRegular';
+    margin: 20px;
+    width: 90%;
+    font-size: 60px;
+    text-align: center;
+    color: black;
+}
